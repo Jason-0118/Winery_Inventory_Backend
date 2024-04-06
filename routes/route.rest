@@ -1,0 +1,43 @@
+# GET http://localhost:3000/categories
+
+
+# POST http://localhost:3000/categories
+# Content-Type: application/json
+
+# {
+#     "category": "Pink Wine"
+# }
+
+
+
+# --------------wine-------------
+GET http://localhost:3000/wines
+
+# POST http://localhost:3000/wines
+# Content-Type: application/json
+
+# {
+#     "name": "grey goose",
+#     "size": "1 L",
+#     "categoryId": "6603c46e0953e92eda285dfc"
+# }
+
+
+# --------------records-------------
+# GET http://localhost:3000/records
+
+# POST http://localhost:3000/records
+# Content-Type: application/json
+
+# [
+#     {
+#     "wineId": "6607ad18b3c82d86825b47c6",
+#     "quantity": "4",
+#     "cmLevel": "8"
+# },
+# {
+#     "wineId": "6607ad18b3c82d86825b47c6",
+#     "quantity": "1",
+#     "cmLevel": "5"
+# }
+# ]
