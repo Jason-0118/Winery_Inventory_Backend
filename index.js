@@ -17,6 +17,10 @@ app.use(express.json());
 
 app.use(cors())
 
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/index.html");
+  });
+
 // --------- category --------- 
 const categoriesRouter = require("./routes/categories");
 app.use("/categories", categoriesRouter);
